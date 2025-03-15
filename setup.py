@@ -18,14 +18,14 @@ with open('./chncal/__init__.py', 'r', encoding='utf-8') as f:
 setup(
     name='chncal',
     version=__version__,
-    description='Check if some day is holiday in china.',
+    description='Check if some day is holiday in china; Chinese lunar calendar.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Genlovy Hoo',
     author_email='genlovhyy@163.com',
-    url='https://github.com/Genlovy-Hoo/chncal',
+    url='https://gitee.com/glhyy/ChnCal',
     license='MIT License',
-    install_requires=[],
+    install_requires=['dramkit'],
     packages=['chncal',
-              'chncal.data'],
+              'chncal.constants'],
 )

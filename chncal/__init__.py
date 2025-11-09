@@ -2,7 +2,7 @@
 
 from __future__ import absolute_import, unicode_literals
 
-__version__ = '3.1.2025'
+__version__ = '3.1.2026'
 
 from .constants.holiday import Holiday, holidays, workdays
 from .holiday import get_dates
@@ -25,6 +25,7 @@ from .trade_dates import get_next_nth_tradeday, get_trade_dates
 
 
 # TODO
+# 增加调休信息
 # 交易日历支持自定义数据
 # 判断农历月大月小，判断是否闰月等
 # 增加八字排盘算命等
